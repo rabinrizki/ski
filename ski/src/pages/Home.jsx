@@ -29,9 +29,22 @@ const Home = () => {
                 <Header />
                 <div className="relative">
                     <div className="px-4 sm:px-10">
-                        <div className="mt-16 max-w-4xl mx-auto text-center relative z-10">
-                            <h1 className="md:text-6xl text-4xl font-extrabold mb-6 md:!leading-[75px]">
-                                PT. Sarana Karya Industri
+                        <div className="flex justify-center items-center flex-col">
+                            <a href="javascript:void(0)">
+                                <img
+                                    src="https://imgur.com/CxkAYmF.png"
+                                    alt="logo"
+                                    className="w-auto"
+                                />
+                            </a>
+                            {/* <h1 className="md:text-6xl mb-30 text-slate-700 text-4xl font-extrabold mb-6 md:!leading-[75px]">
+        SKI
+    </h1> */}
+                        </div>
+
+                        <div className="max-w-4xl mx-auto text-center relative z-10">
+                            <h1 className="md:text-6xl text-4xl font-extrabold mb-3 md:!leading-[75px]">
+                                SKI
                             </h1>
                             <p className="text-base">
                                 IS a company that provides needs for industry
@@ -40,7 +53,25 @@ const Home = () => {
                                 (Point Of Sales Machines), Carton Boxes and
                                 others.
                             </p>
-                            <div
+                            <br />
+                            <h4 className="md:text-4xl text-4xl font-semibold md:!leading-[75px]">
+                                VISI
+                            </h4>
+                            <p className="text-base">
+                                Able to serve industrial and retail needs well
+                                and professionally, It is a means for industry
+                                and retail to help meet the needs of goods.
+                            </p>
+                            <br />
+                            <h4 className="md:text-4xl text-4xl font-semibold md:!leading-[75px]">
+                                MISI
+                            </h4>
+                            <p className="text-base">
+                                Professional in serving the needs of industry
+                                and reliable retail. Committed to providing
+                                customer satisfaction by maintaining quality.
+                            </p>
+                            {/* <div
                                 style={{
                                     marginRight: 500,
                                     marginBottom: "-235px",
@@ -56,8 +87,8 @@ const Home = () => {
                                     industry and retail to help meet the needs
                                     of goods.
                                 </p>
-                            </div>
-                            <div
+                            </div> */}
+                            {/* <div
                                 style={{ marginBottom: "-20px" }}
                                 className="rounded-xl px-6 py-8 space-y-6 max-w-md md:ml-auto w-full"
                             >
@@ -70,9 +101,9 @@ const Home = () => {
                                     providing customer satisfaction by
                                     maintaining quality.
                                 </p>
-                            </div>
+                            </div> */}
                         </div>
-                        <hr className="my-12 border-gray-300" />
+                        <hr className="my-12 mt-32 border-gray-300" />
                     </div>
                     {/* <img src="https://imgur.com/CxkAYmF.png class="absolute inset-0 w-full h-full" /> */}
                 </div>
@@ -83,7 +114,7 @@ const Home = () => {
                                 Our Products
                             </h2>
                         </div>
-                        <div className="grid lg:grid-cols-3 md:grid-cols-2 max-md:max-w-lg mx-auto gap-8">
+                        <div className="grid lg:grid-cols-2 md:grid-cols-2 max-md:max-w-lg mx-auto gap-8">
                             <Link to={"/label"}>
                                 <div className="sm:p-6 p-4 flex bg-white rounded-md border shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]">
                                     <svg
@@ -169,12 +200,12 @@ const Home = () => {
                                     </svg>
                                     <div>
                                         <h3 className="text-xl font-semibold mb-2">
-                                            Carton Box
+                                            CartonBox & InnerBox
                                         </h3>
                                     </div>
                                 </div>
                             </Link>
-                            <Link to={"/innerbox"}>
+                            {/* <Link to={"/innerbox"}>
                                 <div className="sm:p-6 p-4 flex bg-white rounded-md border">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -206,7 +237,7 @@ const Home = () => {
                                         </h3>
                                     </div>
                                 </div>
-                            </Link>
+                            </Link> */}
                             <Link to={"/scanner"}>
                                 <div className="sm:p-6 p-4 flex bg-white rounded-md border">
                                     <svg
@@ -293,6 +324,7 @@ const Home = () => {
                             </Link>
                         </div>
                     </div>
+                    <hr className="my-12 mt-32 border-gray-300" />
                     <div className="mt-32">
                         <div className="sm:max-w-7xl max-w-sm mx-auto">
                             <div className="text-center">
@@ -300,23 +332,22 @@ const Home = () => {
                                     Our Clients
                                 </h2>
                             </div>
-                            <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-x-8 gap-y-20 text-center mt-32">
-                                <div>
+                            <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-x-8 gap-y-20 text-center mt-32 justify-items-center">
+                                <div className="flex items-start justify-center">
                                     <a href="javascript:void(0)">
-                                    <img
+                                        <img
                                             src="https://i.ibb.co.com/x7kmBB6/PT-Dae-Hwa-Indonesia.jpg"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
-                                         
                                     </a>
                                 </div>
                                 <div>
                                     <a href="javascript:void(0)">
-                                    <img
+                                        <img
                                             src="https://i.ibb.co.com/wwyJn57/1631354689523.png"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
@@ -325,7 +356,7 @@ const Home = () => {
                                         <img
                                             src="https://i.ibb.co.com/k3m0Dpb/1638334868085.png"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
@@ -334,7 +365,7 @@ const Home = () => {
                                         <img
                                             src="https://i.ibb.co.com/RhtyK4C/PT-ADITYA-MANDIRI-SEJAHTERA-GROUP-BOGORLOKER.png"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
@@ -343,16 +374,16 @@ const Home = () => {
                                         <img
                                             src="https://i.ibb.co.com/VSqDbDx/logo-sanden.png"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
                                 <div>
                                     <a href="javascript:void(0)">
-                                    <img
+                                        <img
                                             src="https://i.ibb.co.com/QNjLMxt/images-2.png"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
@@ -361,7 +392,7 @@ const Home = () => {
                                         <img
                                             src="https://i.ibb.co.com/5kvcKRH/logo-luwesgroup-1.png"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
@@ -370,7 +401,7 @@ const Home = () => {
                                         <img
                                             src="https://i.ibb.co.com/WDM5Nz7/dharma.png"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
@@ -379,7 +410,7 @@ const Home = () => {
                                         <img
                                             src="https://i.ibb.co.com/WWPXw3n/logo-client-kemindo-4.png"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
@@ -388,7 +419,7 @@ const Home = () => {
                                         <img
                                             src="https://i.ibb.co.com/6Jy0CNn/images-3.png"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
@@ -397,7 +428,7 @@ const Home = () => {
                                         <img
                                             src="https://i.ibb.co.com/LCdrLXx/Logo-Maesindo-pp-new.png"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
@@ -406,7 +437,7 @@ const Home = () => {
                                         <img
                                             src="https://i.ibb.co.com/QbgMJJz/nusantara.png"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
@@ -415,7 +446,7 @@ const Home = () => {
                                         <img
                                             src="https://i.ibb.co.com/5KQWd1s/restmb-idxmake-amp.jpg"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
@@ -424,7 +455,7 @@ const Home = () => {
                                         <img
                                             src="https://i.ibb.co.com/8z4DrkK/toa.jpg"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
@@ -433,7 +464,7 @@ const Home = () => {
                                         <img
                                             src="https://i.ibb.co.com/wwyJn57/1631354689523.png"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
@@ -442,7 +473,63 @@ const Home = () => {
                                         <img
                                             src="https://i.ibb.co.com/cYxG3qb/images-5.png"
                                             alt="logo"
-                                            className="w-52"
+                                            className="w-52 h-32 object-contain"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="mt-32">
+                        <div className="sm:max-w-7xl max-w-sm mx-auto">
+                            <div className="text-center">
+                                <h2 className="md:text-4xl text-3xl font-extrabold">
+                                    In Partnership With
+                                </h2>
+                            </div>
+                            <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-x-8 gap-y-20 text-center mt-32 justify-items-center">
+                                <div className="flex items-start justify-center">
+                                    <a href="javascript:void(0)">
+                                        <img
+                                            src="https://i.ibb.co.com/gJtRv29/images.jpg"
+                                            alt="logo"
+                                            className="w-52 h-32 object-contain"
+                                        />
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="javascript:void(0)">
+                                        <img
+                                            src="https://i.ibb.co.com/sbq2xdf/images-6.png"
+                                            alt="logo"
+                                            className="w-52 h-32 object-contain"
+                                        />
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="javascript:void(0)">
+                                        <img
+                                            src="https://i.ibb.co.com/936JGdv/idataglobal-logo.jpg"
+                                            alt="logo"
+                                            className="w-52 h-32 object-contain"
+                                        />
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="javascript:void(0)">
+                                        <img
+                                            src="https://i.ibb.co.com/R0wdJpj/content04.png"
+                                            alt="logo"
+                                            className="w-52 h-32 object-contain"
+                                        />
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="javascript:void(0)">
+                                        <img
+                                            src="https://i.ibb.co.com/85MNM6q/1662447681879.jpg"
+                                            alt="logo"
+                                            className="w-52 h-32 object-contain"
                                         />
                                     </a>
                                 </div>
@@ -452,7 +539,7 @@ const Home = () => {
                     <div className="mt-32">
                         <div className="mb-16 text-center">
                             <h2 className="md:text-4xl text-3xl font-extrabold">
-                                What our happy client say
+                                What Our Happy Client Say
                             </h2>
                         </div>
                         <div className="grid md:grid-cols-3 md:py-16 gap-8 max-w-7xl max-md:max-w-lg mx-auto relative">
@@ -529,71 +616,25 @@ const Home = () => {
                         <div className="grid max-sm:grid-cols-1 max-lg:grid-cols-2 lg:grid-cols-5 lg:gap-14 max-lg:gap-8">
                             <div className="lg:col-span-2">
                                 <h4 className="text-xl font-semibold mb-6">
-                                    About Us
-                                </h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Aenean gravida, mi eu
-                                    pulvinar cursus, sem elit interdum mauris.
-                                </p>
-                                <div className="bg-[#f8f9ff] flex px-4 py-3 rounded-md text-left mt-4">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 192.904 192.904"
-                                        width="16px"
-                                        className="fill-gray-500 mr-3 rotate-90"
-                                    >
-                                        <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                                    </svg>
-                                    <input
-                                        type="email"
-                                        placeholder="Search..."
-                                        className="w-full outline-none bg-transparent text-gray-600 text-[15px]"
-                                    />
-                                </div>
-                            </div>
-                            <div>
-                                <h4 className="text-xl font-semibold mb-6">
-                                    Services
+                                    Address
                                 </h4>
                                 <ul className="space-y-5">
                                     <li>
                                         <a
-                                            href="javascript:void(0)"
+                                            href="https://maps.app.goo.gl/qPYnt2PJJgdnja6t9"
                                             className="hover:text-blue-600"
                                         >
-                                            Web Development
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="javascript:void(0)"
-                                            className="hover:text-blue-600"
-                                        >
-                                            Mobile App Development
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="javascript:void(0)"
-                                            className="hover:text-blue-600"
-                                        >
-                                            UI/UX Design
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="javascript:void(0)"
-                                            className="hover:text-blue-600"
-                                        >
-                                            Digital Marketing
+                                            Jl. Bambu Hitam No.69, RT.8/RW.4,
+                                            Cipayung, Kec. Cipayung, Kota
+                                            Jakarta Timur, Daerah Khusus Ibukota
+                                            Jakarta 13890
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                             <div>
                                 <h4 className="text-xl font-semibold mb-6">
-                                    Resources
+                                    Contact Us
                                 </h4>
                                 <ul className="space-y-5">
                                     <li>
@@ -601,7 +642,12 @@ const Home = () => {
                                             href="javascript:void(0)"
                                             className="hover:text-blue-600"
                                         >
-                                            Webinars
+                                            <img
+                                                src="https://i.ibb.co.com/gd3Qjrx/gmail-mail-icon-for-web-design-free-png.webp"
+                                                alt="WhatsApp"
+                                                className="inline-block w-5 h-5"
+                                            />{" "}
+                                            Skaryaindustri@gmail.com
                                         </a>
                                     </li>
                                     <li>
@@ -609,7 +655,12 @@ const Home = () => {
                                             href="javascript:void(0)"
                                             className="hover:text-blue-600"
                                         >
-                                            Ebooks
+                                            <img
+                                                src="https://i.ibb.co.com/8g4Npm6/116-1160848-telephone-png-hd-samsung-phone-app-icon-transparent.png"
+                                                alt="WhatsApp"
+                                                className="inline-block w-5 h-5"
+                                            />{" "}
+                                            021-8459-1460
                                         </a>
                                     </li>
                                     <li>
@@ -617,15 +668,12 @@ const Home = () => {
                                             href="javascript:void(0)"
                                             className="hover:text-blue-600"
                                         >
-                                            Templates
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="javascript:void(0)"
-                                            className="hover:text-blue-600"
-                                        >
-                                            Tutorials
+                                            <img
+                                                src="https://i.ibb.co.com/7GsBCDp/png-transparent-whats-app-logo-whatsapp-facebook-instant-messaging-icon-whatsapp-logo-text-logo-gras.png"
+                                                alt="WhatsApp"
+                                                className="inline-block w-5 h-5"
+                                            />{" "}
+                                            0815-1051-9018
                                         </a>
                                     </li>
                                 </ul>
@@ -649,22 +697,6 @@ const Home = () => {
                                             className="hover:text-blue-600"
                                         >
                                             Mission and Values
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="javascript:void(0)"
-                                            className="hover:text-blue-600"
-                                        >
-                                            Team
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="javascript:void(0)"
-                                            className="hover:text-blue-600"
-                                        >
-                                            Testimonials
                                         </a>
                                     </li>
                                 </ul>

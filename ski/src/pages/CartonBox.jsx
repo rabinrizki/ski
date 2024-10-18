@@ -12,7 +12,7 @@ const CartonBox = () => {
                     <div className="bg-green-500 rounded-md overflow-hidden cursor-pointer">
                         <div className="w-full overflow-hidden">
                             <img
-                                src="https://i.ibb.co.com/bPQ2B8D/IMG-3771.jpg"
+                                src="https://i.ibb.co.com/zfBJ0Sy/IMG-3824.jpg"
                                 alt="Product 1"
                                 className="h-full w-full object-cover object-top hover:scale-110 transition-all"
                             />
@@ -20,7 +20,23 @@ const CartonBox = () => {
                         <div className="p-6">
                             <div className="mb-6 flex items-center justify-center flex-wrap gap-4">
                                 <h3 className="text-lg font-bold text-white">
-                                    Wax Resin
+                                    Carton Box
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="bg-green-500 rounded-md overflow-hidden cursor-pointer">
+                        <div className="w-full overflow-hidden">
+                            <img
+                                src="https://i.ibb.co.com/cwB8dSL/IMG-3821.jpg"
+                                alt="Product 1"
+                                className="h-full w-full object-cover object-top hover:scale-110 transition-all"
+                            />
+                        </div>
+                        <div className="p-6">
+                            <div className="mb-6 flex items-center justify-center flex-wrap gap-4">
+                                <h3 className="text-lg font-bold text-white">
+                                    Inner Box
                                 </h3>
                             </div>
                         </div>

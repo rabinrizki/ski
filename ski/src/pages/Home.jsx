@@ -600,7 +600,7 @@ const Home = () => {
                                                 alt="WhatsApp"
                                                 className="inline-block w-5 h-5"
                                             />{" "}
-                                            <a href="mailto:evra1327@gmail.com">
+                                            <a href="mailto:skaryaindustri@gmail.com">
                                                 skaryaindustri@gmail.com
                                             </a>
                                         </a>

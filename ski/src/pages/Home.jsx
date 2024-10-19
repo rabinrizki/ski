@@ -37,71 +37,73 @@ const Home = () => {
                                     className="w-auto"
                                 />
                             </a>
-                            {/* <h1 className="md:text-6xl mb-30 text-slate-700 text-4xl font-extrabold mb-6 md:!leading-[75px]">
-        SKI
-    </h1> */}
                         </div>
 
                         <div className="max-w-4xl mx-auto text-center relative z-10">
-                            <h1 className="md:text-6xl text-4xl font-extrabold mb-3 md:!leading-[75px]">
+                            {/* <h1 className="md:text-6xl text-4xl font-extrabold mb-3 md:!leading-[75px]">
                                 SKI
                             </h1>
                             <p className="text-base">
-                                IS a company that provides needs for industry
-                                and retail, for goods in the form of Labels,
-                                Ribbons, Barcode Printers, Postal Printers
-                                (Point Of Sales Machines), Carton Boxes and
-                                others.
-                            </p>
+                                ADALAH PERUSAHAAN yang menyediakan kebutuhan
+                                untuk industri & retail untuk barang-barang
+                                berupa label, ribbon, printer barcode, printer
+                                pos (mesin point of sales), karton box dan
+                                lainnya.
+                            </p> */}
+                            <div className="rounded-lg bg-lime-500 p-6 text-black">
+                                <h1 className="md:text-6xl text-4xl font-extrabold mb-3 md:!leading-[75px]">
+                                    SKI
+                                </h1>
+                                <p className="text-base">
+                                    ADALAH PERUSAHAAN yang menyediakan kebutuhan
+                                    untuk industri & retail untuk barang-barang
+                                    berupa label, ribbon, printer barcode,
+                                    printer pos (mesin point of sales), karton
+                                    box dan lainnya.
+                                </p>
+                            </div>
                             <br />
-                            <h4 className="md:text-4xl text-4xl font-semibold md:!leading-[75px]">
+                            {/* <h4 className="md:text-4xl text-4xl font-semibold md:!leading-[75px]">
                                 VISI
                             </h4>
                             <p className="text-base">
-                                Able to serve industrial and retail needs well
-                                and professionally, It is a means for industry
-                                and retail to help meet the needs of goods.
-                            </p>
+                                Dapat melayani kebutuhan industri & retail
+                                dengan baik dan profesional. SKI adalah sarana
+                                bagi industri & retail guna membantu memenuhi
+                                kebutuhan barang-barangnya.
+                            </p> */}
+                            <div className="rounded-lg bg-orange-500 p-6 text-black">
+                                <h4 className="md:text-4xl text-4xl font-semibold md:!leading-[75px]">
+                                    VISI
+                                </h4>
+                                <p className="text-base">
+                                    Dapat melayani kebutuhan industri & retail
+                                    dengan baik dan profesional. SKI adalah
+                                    sarana bagi industri & retail guna membantu
+                                    memenuhi kebutuhan barang-barangnya.
+                                </p>
+                            </div>
                             <br />
-                            <h4 className="md:text-4xl text-4xl font-semibold md:!leading-[75px]">
+                            {/* <h4 className="md:text-4xl text-4xl font-semibold md:!leading-[75px]">
                                 MISI
                             </h4>
                             <p className="text-base">
-                                Professional in serving the needs of industry
-                                and reliable retail. Committed to providing
-                                customer satisfaction by maintaining quality.
-                            </p>
-                            {/* <div
-                                style={{
-                                    marginRight: 500,
-                                    marginBottom: "-235px",
-                                }}
-                                className="rounded-xl px-6 py-8 space-y-6 max-w-md md:ml-auto w-full"
-                            >
-                                <h1 className="md:text-4xl text-4xl font-extrabold mb-6 md:!leading-[75px]">
-                                    VISI
-                                </h1>
-                                <p className="text-base">
-                                    Able to serve industrial and retail needs
-                                    well and professionally, It is a means for
-                                    industry and retail to help meet the needs
-                                    of goods.
-                                </p>
-                            </div> */}
-                            {/* <div
-                                style={{ marginBottom: "-20px" }}
-                                className="rounded-xl px-6 py-8 space-y-6 max-w-md md:ml-auto w-full"
-                            >
-                                <h1 className="md:text-4xl text-4xl font-extrabold mb-6 md:!leading-[75px]">
+                                Profesional dalam melayani kebutuhan untuk
+                                industri & retail yang dapat diandalkan.
+                                Berkomitmen memberikan kepuasan pelanggan dengan
+                                menjaga kualitas.
+                            </p> */}
+                            <div className="rounded-lg bg-orange-500 p-6 text-black">
+                                <h4 className="md:text-4xl text-4xl font-semibold md:!leading-[75px]">
                                     MISI
-                                </h1>
+                                </h4>
                                 <p className="text-base">
-                                    Professional in serving the needs of
-                                    industry and reliable retail. Committed to
-                                    providing customer satisfaction by
-                                    maintaining quality.
+                                    Profesional dalam melayani kebutuhan untuk
+                                    industri & retail yang dapat diandalkan.
+                                    Berkomitmen memberikan kepuasan pelanggan
+                                    dengan menjaga kualitas.
                                 </p>
-                            </div> */}
+                            </div>
                         </div>
                         <hr className="my-12 mt-32 border-gray-300" />
                     </div>
@@ -116,7 +118,7 @@ const Home = () => {
                         </div>
                         <div className="grid lg:grid-cols-2 md:grid-cols-2 max-md:max-w-lg mx-auto gap-8">
                             <Link to={"/label"}>
-                                <div className="sm:p-6 p-4 flex bg-white rounded-md border shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]">
+                                <div className="sm:p-6 p-4 flex bg-gray-200 rounded-md border shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="currentColor"
@@ -162,7 +164,7 @@ const Home = () => {
                                 </div>
                             </Link>
                             <Link to={"/ribbon"}>
-                                <div className="sm:p-6 p-4 flex bg-white rounded-md border">
+                                <div className="sm:p-6 p-4 flex bg-gray-200 rounded-md border">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="currentColor"
@@ -183,7 +185,7 @@ const Home = () => {
                                 </div>
                             </Link>
                             <Link to={"/cartonbox"}>
-                                <div className="sm:p-6 p-4 flex bg-white rounded-md border">
+                                <div className="sm:p-6 p-4 flex bg-gray-200 rounded-md border">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="currentColor"
@@ -247,7 +249,7 @@ const Home = () => {
                                 </div>
                             </Link>
                             <Link to={"/scanner"}>
-                                <div className="sm:p-6 p-4 flex bg-white rounded-md border">
+                                <div className="sm:p-6 p-4 flex bg-gray-200 rounded-md border">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="currentColor"
@@ -264,7 +266,7 @@ const Home = () => {
                                 </div>
                             </Link>
                             <Link to={"/thermal"}>
-                                <div className="sm:p-6 p-4 flex bg-white rounded-md border">
+                                <div className="sm:p-6 p-4 flex bg-gray-200 rounded-md border">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="currentColor"
@@ -510,7 +512,7 @@ const Home = () => {
                                         className="w-12 h-12 rounded-full"
                                     /> */}
                                     <h4 className="whitespace-nowrap font-semibold mt-2">
-                                        Mrs. Purwanti
+                                        Ibu Purwanti
                                     </h4>
                                     <p className="mt-1 text-xs">
                                         PT. Askara Internal
@@ -518,8 +520,8 @@ const Home = () => {
                                 </div>
                                 <div className="mt-4">
                                     <p>
-                                        The service was amazing. I never had to
-                                        wait that long for my order.
+                                        Layanannya luar biasa bagus. Pengiriman
+                                        cepat tanpa, kualitas tinggi.
                                     </p>
                                 </div>
                             </div>
@@ -530,7 +532,7 @@ const Home = () => {
                                         className="w-12 h-12 rounded-full"
                                     /> */}
                                     <h4 className="whitespace-nowrap font-semibold mt-2">
-                                        Mrs. Rini
+                                        Ibu Rini
                                     </h4>
                                     <p className="mt-1 text-xs">
                                         PT. Daesang Food Indonesia
@@ -538,8 +540,9 @@ const Home = () => {
                                 </div>
                                 <div className="mt-4">
                                     <p>
-                                        The staff was friendly and attentive.
-                                        Good Company.
+                                        Semua staff ramah, sopan. Selalu
+                                        mengerti apa yang diinginkan
+                                        customernya.
                                     </p>
                                 </div>
                             </div>
@@ -550,7 +553,7 @@ const Home = () => {
                                         className="w-12 h-12 rounded-full"
                                     /> */}
                                     <h4 className="whitespace-nowrap font-semibold mt-2">
-                                        Mrs. Sarah
+                                        Ibu Sarah
                                     </h4>
                                     <p className="mt-1 text-xs">
                                         PT. TVS Motor Company Indonesia
@@ -558,8 +561,9 @@ const Home = () => {
                                 </div>
                                 <div className="mt-4">
                                     <p>
-                                        The delivery was impressively prompt, i
-                                        always repeat order.
+                                        Produk yang selalu terjamin kualitasnya,
+                                        menjadi partner yang baik untuk
+                                        berbisnis.
                                     </p>
                                 </div>
                             </div>

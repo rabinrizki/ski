@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
+import Whatsapp from "../components/Whatsapp";
+import Footer from "../components/Footer";
 
 const Home = () => {
     return (
@@ -50,7 +52,7 @@ const Home = () => {
                                 pos (mesin point of sales), karton box dan
                                 lainnya.
                             </p> */}
-                            <div className="rounded-lg bg-lime-500 p-6 text-black">
+                            <div className="rounded-lg  bg-gradient-to-r from-green-300 to-lime-500 shadow-md p-6 text-black">
                                 <h1 className="md:text-6xl text-4xl font-extrabold mb-3 md:!leading-[75px]">
                                     SKI
                                 </h1>
@@ -72,7 +74,7 @@ const Home = () => {
                                 bagi industri & retail guna membantu memenuhi
                                 kebutuhan barang-barangnya.
                             </p> */}
-                            <div className="rounded-lg bg-orange-500 p-6 text-black">
+                            <div className="rounded-lg bg-gradient-to-r from-orange-300 to-orange-500 shadow-md p-6 text-black">
                                 <h4 className="md:text-4xl text-4xl font-semibold md:!leading-[75px]">
                                     VISI
                                 </h4>
@@ -93,7 +95,7 @@ const Home = () => {
                                 Berkomitmen memberikan kepuasan pelanggan dengan
                                 menjaga kualitas.
                             </p> */}
-                            <div className="rounded-lg bg-orange-500 p-6 text-black">
+                            <div className="rounded-lg bg-gradient-to-r from-orange-300 to-orange-500 shadow-md p-6 text-black">
                                 <h4 className="md:text-4xl text-4xl font-semibold md:!leading-[75px]">
                                     MISI
                                 </h4>
@@ -118,7 +120,7 @@ const Home = () => {
                         </div>
                         <div className="grid lg:grid-cols-2 md:grid-cols-2 max-md:max-w-lg mx-auto gap-8">
                             <Link to={"/label"}>
-                                <div className="sm:p-6 p-4 flex bg-gray-200 rounded-md border shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]">
+                                <div className="sm:p-6 p-4 flex bg-gradient-to-r from-green-300 to-lime-500 rounded-md border shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="currentColor"
@@ -163,8 +165,54 @@ const Home = () => {
                                     </div>
                                 </div>
                             </Link>
+                            <Link to={"/labelnonsticker"}>
+                                <div className="sm:p-6 p-4 flex bg-gradient-to-r from-green-300 to-lime-500 rounded-md border shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="currentColor"
+                                        className="w-12 h-12 mr-6 bg-blue-50 p-3 rounded-md shrink-0"
+                                        viewBox="0 0 682.667 682.667"
+                                    >
+                                        <defs>
+                                            <clipPath
+                                                id="a"
+                                                clipPathUnits="userSpaceOnUse"
+                                            >
+                                                <path
+                                                    d="M0 512h512V0H0Z"
+                                                    data-original="#000000"
+                                                />
+                                            </clipPath>
+                                        </defs>
+                                        <g
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeMiterlimit={10}
+                                            strokeWidth={40}
+                                            clipPath="url(#a)"
+                                            transform="matrix(1.33 0 0 -1.33 0 682.667)"
+                                        >
+                                            <path
+                                                d="M256 492 60 410.623v-98.925C60 183.674 137.469 68.38 256 20c118.53 48.38 196 163.674 196 291.698v98.925z"
+                                                data-original="#000000"
+                                            />
+                                            <path
+                                                d="M178 271.894 233.894 216 334 316.105"
+                                                data-original="#000000"
+                                            />
+                                        </g>
+                                    </svg>
+                                    <div>
+                                        <h3 className="text-xl font-semibold mb-2">
+                                            Label Non Sticker
+                                        </h3>
+                                    </div>
+                                </div>
+                            </Link>
                             <Link to={"/ribbon"}>
-                                <div className="sm:p-6 p-4 flex bg-gray-200 rounded-md border">
+                                <div className="sm:p-6 p-4 flex bg-gradient-to-r from-green-300 to-lime-500 rounded-md border">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="currentColor"
@@ -185,7 +233,7 @@ const Home = () => {
                                 </div>
                             </Link>
                             <Link to={"/cartonbox"}>
-                                <div className="sm:p-6 p-4 flex bg-gray-200 rounded-md border">
+                                <div className="sm:p-6 p-4 flex bg-gradient-to-r from-green-300 to-lime-500 rounded-md border">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="currentColor"
@@ -249,7 +297,7 @@ const Home = () => {
                                 </div>
                             </Link>
                             <Link to={"/scanner"}>
-                                <div className="sm:p-6 p-4 flex bg-gray-200 rounded-md border">
+                                <div className="sm:p-6 p-4 flex bg-gradient-to-r from-green-300 to-lime-500 rounded-md border">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="currentColor"
@@ -266,7 +314,7 @@ const Home = () => {
                                 </div>
                             </Link>
                             <Link to={"/thermal"}>
-                                <div className="sm:p-6 p-4 flex bg-gray-200 rounded-md border">
+                                <div className="sm:p-6 p-4 flex bg-gradient-to-r from-green-300 to-lime-500 rounded-md border">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="currentColor"
@@ -504,8 +552,8 @@ const Home = () => {
                             </h2>
                         </div>
                         <div className="grid md:grid-cols-3 md:py-16 gap-8 max-w-7xl max-md:max-w-lg mx-auto relative">
-                            <div className="bg-lime-500 lg:max-w-[70%] max-w-[80%] h-full w-full inset-0 mx-auto rounded-3xl absolute max-md:hidden"></div>
-                            <div className="h-auto lg:p-6 p-4 rounded-md mx-auto bg-orange-500 relative max-md:shadow-md">
+                            <div className="bg-gradient-to-r from-green-300 to-lime-300 lg:max-w-[70%] max-w-[80%] h-full w-full inset-0 mx-auto rounded-3xl absolute max-md:hidden"></div>
+                            <div className="h-auto lg:p-6 p-4 rounded-md mx-auto bg-gradient-to-r from-orange-400 to-orange-500 relative max-md:shadow-md">
                                 <div>
                                     {/* <img
                                         src="https://readymadeui.com/profile_2.webp"
@@ -521,11 +569,11 @@ const Home = () => {
                                 <div className="mt-4">
                                     <p>
                                         Layanannya luar biasa bagus. Pengiriman
-                                        cepat tanpa, kualitas tinggi.
+                                        cepat, kualitas tinggi.
                                     </p>
                                 </div>
                             </div>
-                            <div className="h-auto lg:p-6 p-4 rounded-md mx-auto bg-orange-500 relative max-md:shadow-md">
+                            <div className="h-auto lg:p-6 p-4 rounded-md mx-auto bg-gradient-to-r from-orange-400 to-orange-500 relative max-md:shadow-md">
                                 <div>
                                     {/* <img
                                         src="https://readymadeui.com/profile_3.webp"
@@ -546,7 +594,7 @@ const Home = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div className="h-auto lg:p-6 p-4 rounded-md mx-auto bg-orange-500 relative max-md:shadow-md">
+                            <div className="h-auto lg:p-6 p-4 rounded-md mx-auto bg-gradient-to-r from-orange-400 to-orange-500 relative max-md:shadow-md">
                                 <div>
                                     {/* <img
                                         src="https://readymadeui.com/profile_4.webp"
@@ -569,168 +617,9 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <footer className="bg-white px-4 sm:px-10 py-12 mt-32">
-                        <div className="grid max-sm:grid-cols-1 max-lg:grid-cols-2 lg:grid-cols-5 lg:gap-14 max-lg:gap-8">
-                            <div className="lg:col-span-2">
-                                <h4 className="text-xl font-semibold mb-6">
-                                    Address
-                                </h4>
-                                <ul className="space-y-5">
-                                    <li>
-                                        <a
-                                            href="https://maps.app.goo.gl/qPYnt2PJJgdnja6t9"
-                                            className="hover:text-blue-600"
-                                        >
-                                            Jl. Bambu Hitam No.69, RT.8/RW.4,
-                                            Cipayung, Kec. Cipayung, Kota
-                                            Jakarta Timur, Daerah Khusus Ibukota
-                                            Jakarta 13890
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h4 className="text-xl font-semibold mb-6">
-                                    Contact Us
-                                </h4>
-                                <ul className="space-y-5">
-                                    <li>
-                                        <a
-                                            href="javascript:void(0)"
-                                            className="hover:text-blue-600"
-                                        >
-                                            <img
-                                                src="https://i.ibb.co.com/gd3Qjrx/gmail-mail-icon-for-web-design-free-png.webp"
-                                                alt="WhatsApp"
-                                                className="inline-block w-5 h-5"
-                                            />{" "}
-                                            <a href="mailto:skaryaindustri@gmail.com">
-                                                skaryaindustri@gmail.com
-                                            </a>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)">
-                                            <img
-                                                src="https://i.ibb.co.com/8g4Npm6/116-1160848-telephone-png-hd-samsung-phone-app-icon-transparent.png"
-                                                alt="WhatsApp"
-                                                className="inline-block w-5 h-5"
-                                            />{" "}
-                                            021-8459-1460
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="javascript:void(0)"
-                                            className="hover:text-blue-600"
-                                        >
-                                            <img
-                                                src="https://i.ibb.co.com/7GsBCDp/png-transparent-whats-app-logo-whatsapp-facebook-instant-messaging-icon-whatsapp-logo-text-logo-gras.png"
-                                                alt="WhatsApp"
-                                                className="inline-block w-5 h-5"
-                                            />{" "}
-                                            <a href="https://api.whatsapp.com/send?phone=+6281510519018&text=Halo PT. Sarana Karya Industri, Kami tertarik dengan produk anda. Kami ingin berdiskusi lebih lanjut. Terima Kasih">
-                                                0815-1051-901
-                                            </a>
-                                        </a>
-                                        <div
-                                            style={{
-                                                position: "fixed",
-                                                left: 20,
-                                                bottom: 20,
-                                                zIndex: 1000,
-                                            }}
-                                        >
-                                            <a
-                                                href="https://api.whatsapp.com/send?phone=+6281510519018&text=Halo PT. Sarana Karya Industri, Kami tertarik dengan produk anda. Kami ingin berdiskusi lebih lanjut. Terima Kasih"
-                                                style={{
-                                                    textDecoration: "none",
-                                                }}
-                                            >
-                                                <button
-                                                    style={{
-                                                        background: "#25D366",
-                                                        display: "flex",
-                                                        alignItems: "center",
-                                                        padding: "10px 15px",
-                                                        border: "none",
-                                                        borderRadius: 5,
-                                                        cursor: "pointer",
-                                                        boxShadow:
-                                                            "0 4px 6px rgba(0, 0, 0, 0.1)",
-                                                        transition:
-                                                            "background 0.3s",
-                                                    }}
-                                                    onMouseEnter={(e) =>
-                                                        (e.currentTarget.style.background =
-                                                            "#1DAF5B")
-                                                    }
-                                                    onMouseLeave={(e) =>
-                                                        (e.currentTarget.style.background =
-                                                            "#25D366")
-                                                    }
-                                                >
-                                                    <img
-                                                        src="https://i.ibb.co.com/3RP8Lbn/download-and-use-logo-whatsapp-png-clipart-3.png"
-                                                        alt="WhatsApp"
-                                                        style={{
-                                                            width: 24,
-                                                            height: 24,
-                                                            marginRight: 8,
-                                                        }}
-                                                    />
-                                                    <span
-                                                        style={{
-                                                            color: "#fff",
-                                                            fontWeight: "bold",
-                                                        }}
-                                                    >
-                                                        WhatsApp Kami
-                                                    </span>
-                                                </button>
-                                            </a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            {/* <div>
-                                <h4 className="text-xl font-semibold mb-6">
-                                    About Us
-                                </h4>
-                                <ul className="space-y-5">
-                                    <li>
-                                        <a
-                                            href="javascript:void(0)"
-                                            className="hover:text-blue-600"
-                                        >
-                                            Our Story
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="javascript:void(0)"
-                                            className="hover:text-blue-600"
-                                        >
-                                            Mission and Values
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div> */}
-                        </div>
-                        <hr className="my-8" />
-                        <p className="text-center">
-                            Copyright © 2023
-                            <a
-                                href="https://readymadeui.com/"
-                                target="_blank"
-                                className="hover:underline mx-1"
-                            >
-                                ReadymadeUI
-                            </a>
-                            All Rights Reserved.
-                        </p>
-                    </footer>
                 </div>
+            <Whatsapp/>
+                    <Footer/>
             </div>
         </>
     );

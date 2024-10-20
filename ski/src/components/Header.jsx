@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <>
-            <header className="py-4 px-4 sm:px-10 z-50 min-h-[70px]">
+            <header className="py-4 px-4 sm:px-10 z-50 min-h-[70px] bg-slate-50 shadow-md">
+                
                 <div className="relative flex flex-wrap items-center gap-4">
+                    <Link to={"/"}>
                     <a href="javascript:void(0)">
                         <img
                             src="https://imgur.com/CxkAYmF.png"
@@ -12,6 +14,7 @@ const Header = () => {
                             className="w-52"
                         />
                     </a>
+                    </Link>
                     <div
                         id="collapseMenu"
                         className="max-lg:hidden lg:!block max-lg:fixed max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-50 max-lg:before:inset-0 max-lg:before:z-50 z-50"

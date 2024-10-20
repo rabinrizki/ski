@@ -27,7 +27,7 @@ const Home = () => {
                     __html: "\n    body {\n      font-family: Poppins, sans-serif;\n    }\n  ",
                 }}
             />
-            <div className="bg-[#f8f9ff] text-black text-[15px]">
+            <div className="bg-white text-black text-[15px]">
                 <Header />
                 <div className="relative">
                     <div className="px-4 sm:px-10">

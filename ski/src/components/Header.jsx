@@ -3,17 +3,16 @@ import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <>
-            <header className="py-4 px-4 sm:px-10 z-50 min-h-[70px] bg-slate-50 shadow-md">
-                
+            <header className="py-4 px-4 sm:px-10 z-50 min-h-[70px] bg-white bg-slate-50 shadow-md">
                 <div className="relative flex flex-wrap items-center gap-4">
                     <Link to={"/"}>
-                    <a href="javascript:void(0)">
-                        <img
-                            src="https://imgur.com/CxkAYmF.png"
-                            alt="logo"
-                            className="w-52"
-                        />
-                    </a>
+                        <a href="javascript:void(0)">
+                            <img
+                                src="https://imgur.com/CxkAYmF.png"
+                                alt="logo"
+                                className="w-52"
+                            />
+                        </a>
                     </Link>
                     <div
                         id="collapseMenu"
@@ -62,14 +61,6 @@ const Header = () => {
                                     </a>
                                 </li>
                             </Link>
-                            {/* <li className="max-lg:border-b max-lg:py-3 px-3">
-                                <Link
-                                    to={"/about"}
-                                    className="hover:text-blue-600 block font-semibold transition-all"
-                                >
-                                    <a>About</a>
-                                </Link>
-                            </li> */}
                         </ul>
                     </div>
                     <div className="flex ml-auto">
